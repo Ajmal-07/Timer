@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Merriweather:ital,wght@1,300&family=Oswald:wght@200;400&family=Titan+One&display=swap');
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Kanit', sans-serif;
+    
+}
+#img1{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+.wrapper{
+    position: relative;
+    text-align: center;
+    padding-top: 1%;
+}
+h1{
+    font-size: 60px;
+    background-image: linear-gradient(to left, violet, indigo,   aqua, orange, red);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+h2{
+    font-size: 50px;
+    background-image: linear-gradient(to left, violet, indigo,   aqua, orange, red);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    padding-bottom: -30px;
+}
+#para{
+    font-size: 50px;
+    padding-bottom: -30px;
+    color: white;
+}
+ #button-start,#button-stop,#button-reset{
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 100px;
+
+} 
+#button-start,#button-stop,#button-reset:hover{
+    border: 1px red;
+    box-shadow: 5px 5px 5px rgb(200, 16, 16);
+}
